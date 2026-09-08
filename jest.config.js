@@ -1,0 +1,1 @@
+module.exports = { testEnvironment: 'node', testMatch: ['**/semana-06/**/*.test.js'], collectCoverageFrom: ['semana-01/funcoes.js', 'semana-02/compra.js', 'semana-03/tecnicas.js', 'semana-05/login-corrigido.js'] };

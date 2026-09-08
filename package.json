@@ -1,0 +1,23 @@
+{
+  "name": "teste-software",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exemplos e práticas de Teste de Software com JavaScript — Técnico em Desenvolvimento de Sistemas",
+  "scripts": {
+    "semana1": "node semana-01/demonstracao.js",
+    "semana2": "node semana-02/demonstracao.js",
+    "semana3": "node semana-03/demonstracao.js",
+    "semana4": "node semana-04/demonstracao.js",
+    "semana5": "node semana-05/demonstracao.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage --runInBand",
+    "test:bug": "jest --runInBand --testMatch **/laboratorio/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
